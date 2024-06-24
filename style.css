@@ -1,0 +1,351 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    height:62.5px ;
+    background-color:#883b008b;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+    
+}
+.nav-logo{
+    height:60px;
+    width: 60px;
+
+}
+
+.logo{
+    background-image: url("logoTF.img.jpg");
+    background-size: cover;
+    height:60px;
+    width:60px;
+
+}
+.border{
+    border:1.5px solid transparent;
+}
+
+.border:hover{
+    border:1.5px solid white ;
+}
+
+/* box2 */
+.add-first{
+    color: #cffafc;
+    font-size:0.5rem ;
+    margin-left: 14px;
+}
+.add-second{
+    font-size:0.7rem;
+    margin-left:2px;
+}
+
+.add-icon{
+    display: flex;
+}
+
+/* box3 */
+.nav-search{
+    display: flex;
+    justify-content:space-evenly;
+    background-color:pink;
+    width: 620px;
+    height:40px;
+    border-radius:4px;
+}
+
+.search-select{
+    background-color:#f3f3f3;
+    width:50px;
+    text-align:center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    border:none;
+}
+
+.search-input{
+    width:100%;
+    font-size:1rem;
+    border:none;
+
+}
+
+.search-icon{
+    width:45px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:1.2rem;
+    background-color:#fca22e;
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+/* box4 */
+span{
+    font-size:0.5rem;
+    
+}
+
+.nav-second{
+    font-size:0.8rem;
+    font-weight:700px;
+}
+
+
+/* box6 */
+.nav-menu i{
+    font-size:30px ;
+}
+
+.nav-menu{
+    font-size: 0.85rem;
+    font-weight:700px;
+}
+
+/* panel */
+.panel{
+    height: 40px;
+    background-color:rgba(114, 77, 2, 0.712);
+    display: flex;
+    color:white;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+    background-color: rgb(67, 2, 97);
+    text-align:center;
+    border-radius:5px;
+}
+
+.panel-ops{
+    width:70%;
+    font-size: 0.5rem;
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+
+}
+
+.panel-helpcenter{
+    font-size: 0.3rem;
+    font-weight: 500;
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+    background-color: #05a200;
+    text-align:center;
+    border-radius:5px;
+}
+
+/* Hero section */
+.hero-section{
+    background-image: url("bg-wallpaper.jpg");
+    background-size:cover;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg{
+    background-color:white ;
+    color: black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.65rem;
+    width: 90%;
+    margin-bottom: 20px;
+
+}
+
+.hero-msg a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* content section */
+.content-section{
+    display: flex;
+    justify-content: center;
+    background-image: url("bg-wallpaper.jpg");
+    background-size:cover;
+    height: 120px;
+    align-items: flex-end;
+}
+
+.box{
+    border: 2px solid black;
+    height: 100px;
+    width: 23%;
+    background-color: white;
+    margin:10px;
+}
+
+.box1{
+    display: flex;
+    background-image: url("goldenbutton.jpg");
+    background-size:cover;
+    border-radius:100px;
+    align-items:center;
+    justify-content:space-evenly;
+    text-align:center;
+    color: white;
+    font-size: 70%;
+}
+
+.add-icon1{
+    width:100%;
+    font-size:1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.box-a{
+    display: flex;
+    border: 2px solid black;
+    background-color: #2efc62;
+    border-radius:100px;
+    height: 50%;
+    width: 50%;
+    align-items:center;
+    justify-content:space-evenly;
+    text-align:center;
+}
+
+.box2{
+    display: flex;
+    background-image: url("goldenbutton.jpg");
+    background-size:cover;
+    border-radius:100px;
+    align-items:center;
+    justify-content:space-evenly;
+    text-align:center;
+    color: white;
+    font-size: 70%;
+
+}
+
+.add-icon2{
+    display: flex;
+    font-size:1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.box-b{
+    display: flex;
+    border: 2px solid black;
+    background-color: darksalmon;
+    border-radius:100px;
+    height: 50%;
+    width: 50%;
+    align-items:center;
+    justify-content:space-evenly;
+    text-align:center;
+}
+
+.box3{
+    display: flex;
+    background-image: url("goldenbutton.jpg");
+    background-size:cover;
+    border-radius:100px;
+    align-items:center;
+    justify-content:space-evenly;
+    text-align:center;
+    color: white;
+    font-size: 70%;
+}
+
+.add-icon3{
+    display: flex;
+    font-size:1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.box-c{
+    display: flex;
+    border: 2px solid black;
+    background-color: aqua;
+    border-radius:100px;
+    height: 50%;
+    width: 50%;
+    align-items:center;
+    justify-content:space-evenly;
+    text-align:center;
+}
+
+.box4{
+    display:flex;
+    background-image: url("goldenbutton.jpg");
+    background-size:cover;
+    border-radius:100px;
+    align-items:center;
+    justify-content:space-evenly;
+    text-align:center;
+    color: white;
+    font-size: 70%;
+
+}
+
+.box-d{
+    display: flex;
+    border: 2px solid black;
+    background-color: fuchsia;
+    border-radius:100px;
+    height: 50%;
+    width: 50%;
+    align-items:center;
+    justify-content:space-evenly;
+    text-align:center;
+}
+
+.add-icon4{
+    display: flex;
+    font-size:1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+    background-color:rgb(155, 112, 2);
+    text-align: center;
+    color: white;
+    font-size: 0.85rem;
+
+}
